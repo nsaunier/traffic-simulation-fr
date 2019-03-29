@@ -3,7 +3,7 @@ function displayTime(time,textsize){
 
     ctx.font=textsize+'px Arial';
 
-    var timeStr="Time="+Math.round(10*time)/10+ " s";
+    var timeStr="Temps="+Math.round(10*time)/10+ " s";
     var timeStr_xlb=textsize;
     var timeStr_ylb=2*textsize;
     var timeStr_width=7*textsize;
